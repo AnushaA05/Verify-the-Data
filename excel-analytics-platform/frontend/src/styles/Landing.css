@@ -1,0 +1,66 @@
+/* Fullscreen layout */
+.landing-wrapper {
+  height: 100vh;
+  background: url('https://i.pinimg.com/1200x/fa/df/04/fadf04811886c048ee0b80c0f768d945.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+/* Glassmorphism container */
+.landing-hero {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 50px 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.landing-hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004d4d;
+  margin-bottom: 20px;
+}
+
+.landing-hero h1 span {
+  color: #008080;
+}
+
+/* Paragraph text */
+.landing-hero p {
+  font-size: 1.1rem;
+  color: #003c3c;
+  margin-bottom: 30px;
+}
+
+/* Get Started button */
+.cta-btn {
+  background-color: #008080;
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #006666;
+  transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+

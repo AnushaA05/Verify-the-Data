@@ -1,0 +1,99 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: url('https://i.pinimg.com/1200x/fa/df/04/fadf04811886c048ee0b80c0f768d945.jpg') no-repeat center center/cover;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem 2.5rem;
+  text-align: center;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #008080;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #006666;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #008080;
+  color: white;
+  box-sizing: border-box;
+}
+
+.navbar-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 1rem; /* space between buttons */
+}
+
+.navbar-right button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: auto; /* don't stretch */
+}
+
+.navbar-right button.login-btn:hover {
+  background-color: white;
+  color: #008080;
+}
+
+.navbar-right button.register-btn {
+  background-color: white;
+  color: #008080;
+}
+
+.navbar-right button.register-btn:hover {
+  background-color: #006666;
+  color: white;
+}
+
+
+

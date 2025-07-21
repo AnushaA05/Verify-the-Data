@@ -1,0 +1,10 @@
+footer {
+  text-align: center;
+  background-color:#008080; /* Teal */
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
